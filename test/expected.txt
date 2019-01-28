@@ -61,7 +61,10 @@
 || 
 || list: Displays all persons as a list with index numbers.
 || 	Example: list
-|| 
+||
+|| sort: Displays all persons as a list with index numbers in sorted order, upper capital A to Z followed by lower capital a to z.
+|| 	Example: sort
+||
 || delete: Deletes a person identified by the index number used in the last find/list call.
 || 	Parameters: INDEX
 || 	Example: delete 1
@@ -169,6 +172,15 @@
 || 	4. Dickson Ee  Phone Number: 444444  Email: dickson@nus.edu.sg
 || 	5. Esther Potato  Phone Number: 555555  Email: esther@notreal.potato
 || 
+|| 5 persons found!
+|| ===================================================
+|| Enter command: || [Command entered:  sort]
+|| 	1. Adam Brown  Phone Number: 111111  Email: adam@gmail.com
+|| 	2. Betsy Choo  Phone Number: 222222  Email: benchoo@nus.edu.sg
+|| 	3. Charlie Dickson  Phone Number: 333333  Email: charlie.d@nus.edu.sg
+|| 	4. Dickson Ee  Phone Number: 444444  Email: dickson@nus.edu.sg
+|| 	5. Esther Potato  Phone Number: 555555  Email: esther@notreal.potato
+||
 || 5 persons found!
 || ===================================================
 || Enter command: || [Command entered:  find]
