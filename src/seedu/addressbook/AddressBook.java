@@ -604,7 +604,7 @@ public class AddressBook {
         ArrayList<String[]> sortedToBeDisplayed = getAllPersonsInAddressBook();
         Collections.sort(sortedToBeDisplayed,new Comparator<String[]>() {
             public int compare(String[] strings, String[] otherStrings) {
-                return strings[0].compareTo(otherStrings[0]);
+                return strings[PERSON_DATA_INDEX_NAME].compareTo(otherStrings[PERSON_DATA_INDEX_NAME]);
             }
         });
         showToUser(sortedToBeDisplayed);
